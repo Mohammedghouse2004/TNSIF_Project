@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.app.light {
+    background: linear-gradient(to bottom right, #eef2f3, #d9e3f0);
+    color: #222;
+}
+
+.app.dark {
+    background: linear-gradient(to bottom right, #1e1e1e, #2e2e2e);
+    color: #eee;
+}
+
+.app-header {
+    padding: 25px 20px;
+    background: linear-gradient(to right, #005bea, #00c6fb);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-actions input {
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 10px;
+}
+
+.theme-btn {
+    background: white;
+    color: #005bea;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    margin: 25px auto;
+    width: 85%;
+    max-width: 900px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.app.dark .card {
+    background: #2c2c2c;
+}
+
+h2 {
+    text-align: center;
+    color: #005bea;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input {
+    margin: 8px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    margin: 6px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.add-btn {
+    background: #00c851;
+}
+
+.edit-btn {
+    background: #33b5e5;
+}
+
+.save-btn {
+    background: #f39c12;
+}
+
+.delete-btn {
+    background: #ff4444;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #005bea;
+    color: white;
+}
+
+tr:hover {
+    background: #f9fbff;
+}
+
+.app.dark tr:hover {
+    background: #3c3c3c;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    background: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.app.dark .footer {
+    background: #1e1e1e;
+    color: #aaa;
+}
